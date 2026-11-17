@@ -1,11 +1,14 @@
 - category: Languages
-  description: Advanced in Python. Familiar with C++, Rust.
+  description: Python, C, C++, SQL.
 
-- category: ML & Deep Learning
-  description: PyTorch, Hugging Face, LLMs, RAG, Fine-tuning, Inference Optimization, Agentic AI.
+- category: Frameworks
+  description: Django, Django REST Framework, Flask, Node.js, Express.js, Vue.js.
 
-- category: Cloud & DevOps
-  description: AWS, Docker, CI/CD, Git.
+- category: ML & AI
+  description: NumPy, Pandas, Matplotlib, Scikit-learn, Jupyter Notebook, LLM evaluation.
 
-- category: Databases
-  description: PostgreSQL, MySQL, ElasticSearch, Vector Databases.
+- category: Research
+  description: Experimental design, dataset curation, model evaluation, ablation studies, academic writing. Research areas include large language models, NLP and LLM reasoning evaluation.
+
+- category: Tools
+  description: Git, GitHub, Docker.

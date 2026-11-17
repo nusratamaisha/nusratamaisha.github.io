@@ -1,26 +1,20 @@
 
-- company: University of Bradford
-  position: Research Collaboration under supervision of Prof. Rami Qahwaji
-  duration: January 2025 &mdash; Current
-  location: Bradford, UK (Part-Time)
+- company: Gigalogy
+  position: Software Engineer Intern
+  duration: August 2026 &mdash; November 2026
+  location: Dhaka, Bangladesh
   summary:
-    - Collaborating with my MSc thesis supervisor to extend research on solar flare analysis and predictive modelling, refining the methodology and results toward academic publication.
+    - "Built <a href=\"https://github.com/nusratamaisha/stylemate-shop\">StyleMate</a>, my internship final project: an AI shopping assistant for small online clothing shops. Customers ask about sizes, stock, fabrics and occasions in English or Bangla, and Gigalogy&rsquo;s Maira LLM API answers from each shop&rsquo;s own product data."
+    - Developed the Flask backend and Vue storefront, including ordering from inside the chat, made-to-measure customization with prices calculated on the server, voice questions through Gigalogy&rsquo;s Chorus speech-to-text, and AI image previews of customized garments.
+    - Designed it as multi-tenant SaaS, with a Maira profile and dataset per shop, three subscription plans with enforced usage limits, and an owner dashboard for orders, sales, product CSV uploads synced to Maira, and customer messages.
+    - Covered it with 180+ pytest tests, moved the database to Flask-Migrate migrations, and containerized it with Docker (nginx, gunicorn and Flask).
 
-- company: Amazon UK (Fulfilment Centre)
-  position: Team Lead, L3
-  duration: August 2024 &mdash; February 2026
-  location: Leeds, UK (Full-Time)
+- company: University of Asia Pacific
+  position: "Undergraduate Thesis: Reasoning in Large Language Models"
+  duration: July 2025 &mdash; July 2026
+  location: Dhaka, Bangladesh
   summary:
-    - Did this just to make the money; but improved my leadership skill a lot by building and managing my own team and at the same time maintaining Amazon standard of work in terms safety and efficiency.
-    - Led a team of 25 associates on Amazon's robotics floor, managing daily fulfillment operations and oversaw shift execution and safety for 500+ associates around autonomous robotics system.
-    - Maintained KPIs related to system uptime, throughput, and floor efficiency.
-
-- company: Gigalogy Inc
-  position: Machine Learning Engineer
-  duration: March 2020 &mdash; December 2022, May 2023 &mdash; August 2024
-  location: Hybrid (Full-Time)
-  summary:
-    - Improved the multilingual and multi-modal data processing pipeline for a dynamic RAG-based chat system (<a href="https://gigalogy.com/maira-platform/">Maira</a>). Optimized dynamic prompt generation for 10+ products, significantly improving model response and adaptability across different tasks.
-    - Developed and deployed cost-effective BERT-based classifiers to filter approximately 30% to 50% of simple user requests (depending on clients), significantly decreasing dependency on resource-intensive large models through LLM routing.
-    - Led development of a local and cloud-based system for SFT-based fine-tuning of LLMs, integrating performance monitoring and chat support. Optimized time to first token from 900ms–1200ms to 400ms using continuous batching, prompt compression, and model quantization.
-    - Built the REST API-based core backend system for a dynamic <a href="https://gigalogy.com/personalizer-platform/">personalization platform</a> offering personalized search, image search, and dynamic pricing.
+    - Evaluated chain-of-thought and multi-step reasoning across state-of-the-art LLMs by designing controlled benchmark experiments spanning logical, mathematical and commonsense reasoning tasks.
+    - Curated task-specific evaluation datasets to identify LLM reasoning failure modes under distribution shifts and adversarial prompts, enabling targeted comparison of model robustness.
+    - Measured the effect of prompting strategies on reasoning quality through ablation studies on logical consistency, answer accuracy and output calibration.
+    - Synthesizing cross-model results into a research manuscript for submission to an NLP/AI venue, highlighting failure patterns, robustness gaps and prompting trade-offs.

@@ -1,36 +1,31 @@
-- name: Mercor Cheating Detection
-  result: 20th
-  teams: 419
-  date: 2025
-  url: https://www.kaggle.com/competitions/mercor-cheating-detection/writeups/20th-place-solution-write-up
-  description: >
-    Placed 20th out of 419 in a Kaggle competition focused on graph based fraud detection, emphasizing feature engineering over complex modeling.
-    Built a tabular model based on added graph features, and used conservative pseudo-labeling with calibrated ensemble models for final submission.
+# Projects. Replace each url with the project's own GitHub repo link.
+# "result" is shown as the subtitle; "date" is optional.
 
-- name: Nivolytics - AI-Powered Investment Analytics
-  result: Perplexity Hackathon by Devpost
+- name: PropOps - Apartment Rental Platform
+  result: Django, REST API, SQLite, Python
   teams: N/A
-  date: 2025
-  url: https://github.com/sharifAhmd/nivolytics
+  date:
+  url: https://github.com/nusratamaisha
   description: >
-    Built Nivolytics, an AI-powered investment analytics platform using FastAPI, Vue.js, and Perplexity AI's Sonar models for real-time and deep financial insights.
-    Integrated LLM-based analysis for instant portfolio summaries, multi-source due diligence, and intelligent investment research.
+    Built a Django apartment rental platform with property listings, tenant management and role-based access control,
+    supporting separate workflows for owners, tenants and administrators. Added multi-criteria search and filtering across
+    location, rent, property type and availability, on normalized SQLite schemas with indexed relational fields.
 
-- name: Solar Flare Prediction System
-  result: Master's Dissertation
+- name: PetPal - Pet Adoption Backend
+  result: Django REST Framework, SQLite, Python
   teams: N/A
-  date: 2024
-  url: https://github.com/sharifAhmd/dissertation
+  date:
+  url: https://github.com/nusratamaisha
   description: >
-    Conducted master's dissertation research focused on pre-processing solar XRAY-flux data, fractal interpolation for data imputation,
-    fractal dimension for self-similarity analysis, and a <a href="https://dissertation-solar-flare-prediction-30-min.streamlit.app/">real-time</a>
-    Streamlit-based predictive system that forecasts solar flares with classification.
+    Implemented RESTful APIs in Django REST Framework for pet profiles, adoption requests and user workflows, using
+    serializer validation and structured endpoint design. Enforced referential integrity and optimized queries in SQLite
+    across the full adoption lifecycle.
 
-- name: Cohere Prompt Challenge
-  result: Winner
+- name: Tuition Bondhu - Tuition Management System
+  result: Node.js, Express.js, REST API, MVC
   teams: N/A
-  date: 2023
-  url: https://cohere.com/coral
+  date:
+  url: https://github.com/nusratamaisha
   description: >
-    Won the Cohere Prompt Challenge. The task involved testing and challenging the Cohere Coral chat to identify vulnerabilities,
-    such as generating misinformation, inducing hallucinations, and generating responses it is designed to avoid.
+    Developed a modular Express.js REST API for tutor-student matching, organizing routes, controllers and middleware
+    around reusable MVC components.

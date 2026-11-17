@@ -12,7 +12,7 @@
       <!----------------------  Header ---------------------->
 
       <header class="page-header">
-        <img src="images/profile.jpeg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/profile.jpeg" alt="Photo of {{ site.resume_name }}" class="avatar no-print" itemprop="image">
 
         <!-- Your name is defined in the _config.yml file -->
         <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
@@ -100,7 +100,7 @@
 
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects and Achievements</h2>
+          <h2>Projects</h2>
         </header>
 
         {% for competition in site.data.competitions %}
@@ -109,9 +109,9 @@
           <h3 class="resume-item-title" itemprop="name"><a href="{{competition.url}}">{{ competition.name }}</a></h3>
           <h4 class="resume-item-details" itemprop="description">
             {% if competition.teams != "N/A" %}
-              {{ competition.result }} place / {{ competition.teams }} teams ({{ competition.date }})
+              {{ competition.result }} place / {{ competition.teams }} teams{% if competition.date %} ({{ competition.date }}){% endif %}
             {% else %}
-              {{ competition.result }} ({{ competition.date }})
+              {{ competition.result }}{% if competition.date %} ({{ competition.date }}){% endif %}
             {% endif %}
           </h4>
           <p class="resume-item-copy">{{ competition.description }}</p>
@@ -140,7 +140,7 @@
       <!----------------------  Footer ---------------------->
 
       <footer class="page-footer">
-        <p class="footer-line">Copyright © Sharif Ahamed | Forked with thanks from <a href="https://github.com/k-fujikawa/k-fujikawa.github.io">Kazuki Fujikawa</a></p>
+        <p class="footer-line">Copyright © {{ site.resume_name }} | Template forked with thanks from <a href="https://github.com/sharifAhmd">Sharif Ahamed</a> and <a href="https://github.com/k-fujikawa/k-fujikawa.github.io">Kazuki Fujikawa</a></p>
       </footer>
 
     </div>

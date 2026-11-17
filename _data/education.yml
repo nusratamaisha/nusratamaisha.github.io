@@ -1,15 +1,8 @@
-- degree: Master's with Distinction in Artificial Intelligence
-  uni: University of Bradford
-  year: 2024
-  location: Bradford, UK
-  summary:
-    - Conducted master's dissertation research focused on solar XRAY-flux data preprocessing, fractal interpolation for data imputation, and fractal dimension for self-similarity analysis.
-    - Developed a real-time Streamlit-based predictive system that forecasts solar flares with classification.
-
-- degree: Bachelor's in Computer Science and Engineering
-  uni: North South University
-  year: 2019
+- degree: B.Sc. in Computer Science and Engineering
+  uni: University of Asia Pacific
+  year: 2022 &mdash; 2026
   location: Dhaka, Bangladesh
+  award: "CGPA 3.95/4.00 &bull; Vice Chancellor&rsquo;s Award &times;7 &bull; Dean&rsquo;s Award"
   summary:
-    - Completed comprehensive undergraduate program in Computer Science and Engineering.
-    - Built foundational knowledge in algorithms, data structures, software engineering, and computer systems.
+    - Received the Vice Chancellor&rsquo;s Award seven times and the Dean&rsquo;s Award for academic excellence.
+    - "Undergraduate thesis: Reasoning in Large Language Models."
