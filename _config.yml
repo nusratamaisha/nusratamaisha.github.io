@@ -1,6 +1,6 @@
 # Site settings
-title: "Nusrat Ahmmed Maisha | Software Engineer"
-description: "Nusrat Ahmmed Maisha | Software engineer building web backends and researching reasoning in large language models"
+title: "Nusrat Ahmmed Maisha | CSE Graduate and NLP Researcher"
+description: "Nusrat Ahmmed Maisha: Computer Science and Engineering graduate (CGPA 3.95/4.00) researching reasoning in large language models."
 
 # Plugin settings
 plugins:
@@ -14,16 +14,22 @@ sass:
 
 # Resume settings
 resume_name: "Nusrat Ahmmed Maisha"
-resume_title: "Software Engineer"
+resume_title: "CSE Graduate &amp; NLP Researcher"
+
+# Shown under your name
+display_header_contact_info: "true"
+resume_header_contact_info: 'Dhaka, Bangladesh &bull; <a href="mailto:nusratamaisha@gmail.com">nusratamaisha@gmail.com</a>'
 
 resume_header_intro:
-  <p>Computer Science and Engineering graduate from the University of Asia Pacific (CGPA 3.95/4.00) and Software Engineer Intern at Gigalogy. I build backend systems with Django, Django REST Framework and Express.js, and my undergraduate research evaluates how large language models reason, covering chain-of-thought prompting, robustness under distribution shift and adversarial prompts, and calibration.</p>
+  <p>Computer Science and Engineering graduate from the University of Asia Pacific with a CGPA of 3.95 out of 4.00, the Vice Chancellor&rsquo;s Award seven times and the Dean&rsquo;s Award. My research evaluates how large language models reason, and I am preparing it for publication. I also bring industry experience from a software engineering internship at Gigalogy.</p>
+  <p>I am applying for Lecturer positions in Computer Science and Engineering, to teach programming, data structures, databases and artificial intelligence, and to continue my research in natural language processing.</p>
 
-# Decide which sections to use
-# comment out to hide
-resume_section_experience:      true
-resume_section_education:       true
-resume_section_competitions:    true
+# Research interests, shown as their own section
+research_interests:
+  - Reasoning in large language models
+  - Evaluation and robustness of language models
+  - Natural language processing
+  - Prompt engineering and chain-of-thought reasoning
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL

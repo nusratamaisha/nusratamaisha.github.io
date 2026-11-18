@@ -1,8 +1,16 @@
-- degree: B.Sc. in Computer Science and Engineering
-  uni: University of Asia Pacific
+- uni: University of Asia Pacific
+  degree: B.Sc. in Computer Science and Engineering
   year: 2022 &mdash; 2026
-  location: Dhaka, Bangladesh
-  award: "CGPA 3.95/4.00 &bull; Vice Chancellor&rsquo;s Award &times;7 &bull; Dean&rsquo;s Award"
+  award: CGPA 3.95 out of 4.00
   summary:
-    - Received the Vice Chancellor&rsquo;s Award seven times and the Dean&rsquo;s Award for academic excellence.
-    - "Undergraduate thesis: Reasoning in Large Language Models."
+    - "Thesis: Reasoning in Large Language Models, supervised by Dr. Shah Murtaza Rashid Al Masud."
+
+# Add your college's name after "HSC," if you like, e.g. "Higher Secondary Certificate (HSC), Your College"
+- uni: Higher Secondary Certificate (HSC)
+  degree: GPA 5.00 out of 5.00, Dhaka Board
+  year: 2021
+
+# Add your school's name the same way
+- uni: Secondary School Certificate (SSC)
+  degree: GPA 5.00 out of 5.00, Dhaka Board
+  year: 2019

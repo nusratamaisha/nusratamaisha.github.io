@@ -45,6 +45,7 @@
   .header-contact-info {
     @include sans;
     text-align: center;
+    p { margin: .5rem 0 0; }
   }
   .header-contact-info p a {
     color: inherit;
@@ -175,6 +176,22 @@
   }
 
   .resume-item-copy { margin: .75rem 0 0; }
+
+  .resume-item.compact { margin-bottom: 1.25rem;
+    .resume-item-title { margin-bottom: .35rem; }
+    .resume-item-copy { margin-top: .25rem; }
+  }
+
+  .resume-item-subtitle {
+    @include sans_bold;
+    font-size: 1.125rem;
+    margin: 1.5rem 0 .5rem;
+  }
+
+  .course-list {
+    @include media_larger_than_mobile { columns: 2; column-gap: 2.5rem; }
+    li { break-inside: avoid; }
+  }
 }
 
 // footer styles

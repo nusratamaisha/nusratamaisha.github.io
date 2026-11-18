@@ -1,6 +1,16 @@
 # Projects. Replace each url with the project's own GitHub repo link.
 # "result" is shown as the subtitle; "date" is optional.
 
+- name: StyleMate - AI Shopping Assistant for Clothing Shops
+  result: Flask, Vue.js, SQLite, Docker, Gigalogy Maira and Chorus APIs
+  teams: N/A
+  date: 2026
+  url: https://github.com/nusratamaisha/stylemate-shop
+  description: >
+    Gigalogy internship final project. Customers of small online clothing shops ask by text or voice, in English or Bangla,
+    and get answers only from the shop&rsquo;s own catalogue. Includes ordering from the chat, made-to-measure pricing calculated
+    on the server, AI image previews, an owner dashboard, and multi-shop subscription plans with usage limits.
+
 - name: PropOps - Apartment Rental Platform
   result: Django, REST API, SQLite, Python
   teams: N/A

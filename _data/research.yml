@@ -1,0 +1,12 @@
+- title: "Undergraduate Thesis: Reasoning in Large Language Models"
+  details: University of Asia Pacific &bull; July 2025 &mdash; July 2026
+  supervisor: Dr. Shah Murtaza Rashid Al Masud
+  summary:
+    - Evaluated chain-of-thought and multi-step reasoning across state-of-the-art LLMs by designing controlled benchmark experiments spanning logical, mathematical and commonsense reasoning tasks.
+    - Curated task-specific evaluation datasets to identify LLM reasoning failure modes under distribution shifts and adversarial prompts, enabling targeted comparison of model robustness.
+    - Measured the effect of prompting strategies on reasoning quality through ablation studies on logical consistency, answer accuracy and output calibration.
+
+- title: Research manuscript (in preparation)
+  details: Based on the undergraduate thesis
+  summary:
+    - Writing up the cross-model results for submission to an NLP/AI venue, covering reasoning failure patterns, robustness gaps and prompting trade-offs.

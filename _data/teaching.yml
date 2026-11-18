@@ -1,0 +1,14 @@
+# Courses you would like to teach. Edit freely.
+statement: >
+  I would like to teach by pairing every concept with code that students write, run and debug themselves.
+  From my internship and projects I can bring real examples into labs and assignments, such as designing a
+  REST API, modelling a database, or testing what a language model gets wrong.
+courses:
+  - Structured Programming (C) and its lab
+  - Object-Oriented Programming (C++) and its lab
+  - Data Structures
+  - Database Management Systems
+  - Web Programming
+  - Artificial Intelligence
+  - Machine Learning
+  - Natural Language Processing
